@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "timecop", "~> 0.3.5"
   spec.add_development_dependency "coveralls"
 
-  spec.add_runtime_dependency "activesupport", ">= 3.0.20", "< 5"
+  spec.add_runtime_dependency "activesupport", ">= 3.0.20", "< 8"
   spec.add_runtime_dependency 'i18n' # required by active_support
   spec.add_runtime_dependency 'tzinfo', '>= 0.3.35'
 end
