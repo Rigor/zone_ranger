@@ -2,14 +2,19 @@ PATH
   remote: .
   specs:
     zone_ranger (0.0.1)
-      activesupport (~> 3.0.20)
+      activesupport (>= 3.0.20, < 8)
       i18n
-      tzinfo (~> 0.3.35)
+      tzinfo (>= 0.3.35)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (3.0.20)
+    activesupport (7.0.4.3)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    concurrent-ruby (1.2.2)
     coveralls (0.6.9)
       multi_json (~> 1.3)
       rest-client
@@ -17,8 +22,10 @@ GEM
       term-ansicolor
       thor
     diff-lcs (1.2.4)
-    i18n (0.6.5)
+    i18n (1.12.0)
+      concurrent-ruby (~> 1.0)
     mime-types (1.25)
+    minitest (5.18.0)
     multi_json (1.8.0)
     rake (10.1.0)
     rest-client (1.6.7)
@@ -40,7 +47,8 @@ GEM
     thor (0.18.1)
     timecop (0.3.5)
     tins (0.9.0)
-    tzinfo (0.3.37)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
 
 PLATFORMS
   ruby
